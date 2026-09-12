@@ -15,7 +15,6 @@ The model uses a **Multi-Criteria Decision Analysis (MCDA)** framework to identi
 
 The model produces a continuous suitability surface — it does not predict presence or absence of sites, but identifies where the landscape conditions associated with known occupation are most concentrated. For larger study areas or where palaeoenvironmental reconstructions are available, the framework can be extended with past climatic variables to capture higher-resolution patterns of past human behaviour across landscapes.
 
-Code development, pipeline implementation, and statistical validation by **S. Kouki**.
 
 ---
 
@@ -97,9 +96,6 @@ Inputs/DEM/
 | TWI | WhiteboxTools D8 flow accumulation | Higher preferred |
 | Distance to drainage (DTD) | Euclidean distance from P95 flow accumulation channels | Closer preferred |
 
-### Weighting
-
-Variable weights are derived from the **Kullback–Leibler divergence** between site and background distributions (Kullback & Leibler, 1951), following the information-theoretic approach to archaeological variable weighting. Weights are calculated both globally (full modelled area) and per bioclimatic zone (Mediterranean, Irano-Turanian, Saharo-Arabian).
 
 ### Classification
 
@@ -164,7 +160,7 @@ Key reproducibility notes:
 
 If you use this code or adapt it for your own study area, please cite:
 
-> Samawi, O., Kouki, S., Beller, J. A., Hallinan, E., Rose, J. I., Bicho, N., Nassr, A., Collard, M., & Al-Nahar, M. (in prep.). Hunting the Hunters: A Predictive Model of MIS 5 Human Occupation across the Southern Levant, with Application to Understudied Regions in Jordan. *Quaternary International*.
+> Samawi, O., Kouki, S., Beller, J. A., Hallinan, E., Rose, J. I., Bicho, N., Nassr, A., Collard, M., & Al-Nahar, M. (in prep.). Hunting the Hunters: A Predictive Model of MIS 5 Human Occupation across the Southern Levant, with Application to Understudied Regions in Jordan. *Quaternary International* (in press).
 
 ---
 
