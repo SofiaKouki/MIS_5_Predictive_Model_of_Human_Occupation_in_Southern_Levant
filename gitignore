@@ -1,0 +1,20 @@
+# Outputs (generated at runtime)
+outputs*/
+
+# Large raster files (inputs not redistributed)
+*.tif
+!Inputs/**/*.tif
+
+# R session files
+.Rhistory
+.RData
+.Rdata
+.Ruserdata
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# OneDrive temp files
+~$*
